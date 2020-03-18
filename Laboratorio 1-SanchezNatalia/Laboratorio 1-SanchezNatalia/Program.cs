@@ -10,8 +10,9 @@ namespace Laboratorio_1_SanchezNatalia
     {
         static void Main(string[] args)
         {
-            Persona persona = new Persona();
+            Persona persona = new Persona("Bob","Kunga");
             persona.Lanzar();
+            persona.Name(); 
 
             
 
